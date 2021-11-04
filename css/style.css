@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 400vh;
+}
+
+/* -------------------------------------------------------------- */
+
+header{
+    height: 700px;
+    background:url("../img/jumbo.png");
+    background-size: cover;
+}
+
+header img{
+    width: 100%;
+}
+
+header img:hover{
+    width: 200px;
+    cursor:pointer;
+}
+
+nav{
+    height: 120px;
+    position: relative;
+}
+
+nav img{
+    width: 150px;
+    position: absolute;
+    left: 250px;
+    top: 40px;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    padding-right: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+li:hover{
+   text-decoration:underline;
+   cursor: pointer;
+}
+
+nav ul{
+    position: absolute;
+    top: 45px;
+    left: 700px;
+}
+
+button{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    border-radius: 40px;
+    font-size: 15px;
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-2{
+    position: static;
+    color: black;
+    position: relative;
+    left: 200px;
+    padding: 30px;
+}
+
+.button-3{
+    position: static;
+    color: #fff;
+    background-color: rgb(22, 21, 21);
+    position: relative;
+    left: 250px;
+    padding: 30px;
+}
+
+.container-text{
+    height: 500px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container-text h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 60px;
+}
+
+.container-text p{
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container img{
+    margin-top: 150px;
+}
+
+.container::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.fl{
+    width: 500px;
+    height: 500px;
+    margin-top: 180px;
+    float: right;
+}
+
+.fl h1{
+    font-size: 58px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.fl p{
+    font-size: 22px;
+    padding-top: 20px;
+}
