@@ -11,7 +11,7 @@ body{
 .container{
     margin: 0 auto;
     width: 1200px;
-    height: 400vh;
+    height: 600px;
 }
 
 /* -------------------------------------------------------------- */
@@ -60,7 +60,11 @@ li:hover{
 nav ul{
     position: absolute;
     top: 45px;
-    left: 700px;
+    left: 600px;
+}
+
+nav li:first-child{
+    color:#fff
 }
 
 button{
@@ -106,7 +110,7 @@ button{
 }
 
 .container-text p{
-    font-size: 35px;
+    font-size: 30px;
     color: #fff;
     text-align: center;
     padding-top: 50px;
@@ -122,20 +126,220 @@ button{
     clear: both;
 }
 
-.fl{
+.fr{
     width: 500px;
     height: 500px;
     margin-top: 180px;
     float: right;
 }
 
-.fl h1{
+.fr h1{
     font-size: 58px;
     font-weight: bold;
     color:rgba(0, 0, 0, 0.87);
 }
 
-.fl p{
+.fr p{
     font-size: 22px;
     padding-top: 20px;
+    line-height: 35px;
 }
+
+.wave img{
+    width: 100%; 
+}
+
+.container-2{
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    background: rgb(205, 207, 209);
+}
+
+.fl{
+    width: 400px;
+    height: 500px;
+    margin-top: 180px;
+    float: left;
+}
+
+.fl h1{
+    color:rgba(0, 0, 0, 0.87);
+    font-size: 50px;
+}
+
+.fl p{
+  font-size: 22px;
+  padding-top: 30px;
+  line-height: 35px;
+}
+
+.container-2 img{
+    float: right;
+    margin-top: 150px;
+}
+
+.container-3{
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+.container-3 img{
+    margin-top: 170px;
+}
+
+.container-4{
+    margin: 0 auto;
+    width: 1200px;
+    height: 1000px;
+    margin-top: 150px;
+}
+
+.container-4 h1{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.container-4 p{
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container-4 img{
+    width: 100%;
+}
+
+footer{
+    background: url("../img/stars.svg") no-repeat;
+    height: 80px;
+    text-align: center;
+    background-position: center;
+}
+
+footer h2{
+    line-height: 130px;
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 0;
+}
+
+.f-button{
+    width: 250px;
+    height: 50px;
+    background:lightskyblue;
+    border: none;
+    position: static;
+    margin-bottom: 250px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.last{
+    margin-top: 150px;
+    height: 800px;
+    background:rgba(15, 15, 15, 0.904)
+}
+
+.testo img{
+    padding-top: 25px;
+    width: 30px;
+}
+
+.testo p{
+    display: inline-block;
+    color: #fff;
+}
+
+.inside-last{
+    width: 1200px;
+    height: 490px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid lightskyblue;
+}
+
+.inside-last h1{
+    font-weight: bold;
+}
+
+.testo{
+    margin-top: 80px;
+    width: 300px;
+    padding-top: 100px;
+}
+
+.inside-last h1{
+    color: rgb(0, 81, 255);
+}
+
+.list{
+    width: 850px;
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+
+ul{
+    padding-left: 60px;
+    float: left;
+}
+
+ul li{
+    color: #fff;
+    list-style: none;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight:bold ;
+}
+
+li:first-child{
+    color: rgb(0, 81, 255);
+}
+
+.last-logo{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.last-logo img{
+    margin-top: 20px;
+}
+
+.last-logo button{
+    position: static;
+    background: lightskyblue;
+    border: none;
+    float: right;
+    margin-top: 20px;   
+}
+
+.last-logo img:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+.wave-1hkxOo{
+    color: rgb(205, 207, 209); 
+    position: relative;
+    top: 5px;  
+}
+
+.wave-1hkxOo2{
+    color: rgb(205, 207, 209);
+    transform: rotate(180deg);
+      
+}
+
+.background{
+    height: 700px;
+    background: rgb(205, 207, 209);
+
+}
+
+
+
